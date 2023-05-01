@@ -28,7 +28,7 @@ setup(
         'Programming Language :: Python :: 3.9',
     ],
     install_requires=[
-        'Flask == 1.*'
+        'Flask >= 1,< 3'
     ],
     python_requires='>=3.6',
     entry_points={
